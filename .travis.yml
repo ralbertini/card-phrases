@@ -3,4 +3,4 @@ os: osx
 osx_image: xcode12.2
 xcode_project: "Card Phrases.xcodeproj" # path to your xcodeproj folder
 xcode_destination: platform=iOS Simulator,OS=14.0,name=iPhone X
-xcode_scheme: "Card PhrasesTests"
+xcode_scheme: "Card Phrases"
