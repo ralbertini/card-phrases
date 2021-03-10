@@ -2,5 +2,5 @@ language: swift
 os: osx
 osx_image: xcode12.2
 xcode_project: "Card Phrases.xcodeproj" # path to your xcodeproj folder
-xcode_destination: platform=iOS Simulator,OS=11.3,name=iPhone X
-xcode_scheme: "Card Phrases"
+xcode_destination: platform=iOS Simulator,name=iPhone 8,OS=13.2.2  # work
+sxcode_scheme: "Card Phrases"
