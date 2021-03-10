@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB1AF4E325F8549300C44459 /* Card_PhrasesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1AF4E225F8549300C44459 /* Card_PhrasesTests.swift */; };
 		DBA9C03125EF1B2B0035E223 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA9C03025EF1B2B0035E223 /* AppDelegate.swift */; };
 		DBA9C03325EF1B2B0035E223 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA9C03225EF1B2B0035E223 /* SceneDelegate.swift */; };
 		DBA9C03525EF1B2B0035E223 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA9C03425EF1B2B0035E223 /* ViewController.swift */; };
@@ -17,7 +18,20 @@
 		DBA9C05225EF2A930035E223 /* NewCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA9C05125EF2A930035E223 /* NewCardViewController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		DB1AF4E525F8549300C44459 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBA9C02525EF1B2B0035E223 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBA9C02C25EF1B2B0035E223;
+			remoteInfo = "Card Phrases";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		DB1AF4E025F8549300C44459 /* Card PhrasesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Card PhrasesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1AF4E225F8549300C44459 /* Card_PhrasesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card_PhrasesTests.swift; sourceTree = "<group>"; };
+		DB1AF4E425F8549300C44459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DBA9C02D25EF1B2B0035E223 /* Card Phrases.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Card Phrases.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBA9C03025EF1B2B0035E223 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBA9C03225EF1B2B0035E223 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,6 +44,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		DB1AF4DD25F8549300C44459 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DBA9C02A25EF1B2B0035E223 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -41,10 +62,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DB1AF4E125F8549300C44459 /* Card PhrasesTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB1AF4E225F8549300C44459 /* Card_PhrasesTests.swift */,
+				DB1AF4E425F8549300C44459 /* Info.plist */,
+			);
+			path = "Card PhrasesTests";
+			sourceTree = "<group>";
+		};
 		DBA9C02425EF1B2B0035E223 = {
 			isa = PBXGroup;
 			children = (
 				DBA9C02F25EF1B2B0035E223 /* Card Phrases */,
+				DB1AF4E125F8549300C44459 /* Card PhrasesTests */,
 				DBA9C02E25EF1B2B0035E223 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				DBA9C02D25EF1B2B0035E223 /* Card Phrases.app */,
+				DB1AF4E025F8549300C44459 /* Card PhrasesTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -91,6 +123,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		DB1AF4DF25F8549300C44459 /* Card PhrasesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB1AF4E925F8549300C44459 /* Build configuration list for PBXNativeTarget "Card PhrasesTests" */;
+			buildPhases = (
+				DB1AF4DC25F8549300C44459 /* Sources */,
+				DB1AF4DD25F8549300C44459 /* Frameworks */,
+				DB1AF4DE25F8549300C44459 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB1AF4E625F8549300C44459 /* PBXTargetDependency */,
+			);
+			name = "Card PhrasesTests";
+			productName = "Card PhrasesTests";
+			productReference = DB1AF4E025F8549300C44459 /* Card PhrasesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		DBA9C02C25EF1B2B0035E223 /* Card Phrases */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DBA9C04125EF1B2C0035E223 /* Build configuration list for PBXNativeTarget "Card Phrases" */;
@@ -120,6 +170,10 @@
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
+					DB1AF4DF25F8549300C44459 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = DBA9C02C25EF1B2B0035E223;
+					};
 					DBA9C02C25EF1B2B0035E223 = {
 						CreatedOnToolsVersion = 12.4;
 					};
@@ -142,11 +196,19 @@
 			projectRoot = "";
 			targets = (
 				DBA9C02C25EF1B2B0035E223 /* Card Phrases */,
+				DB1AF4DF25F8549300C44459 /* Card PhrasesTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		DB1AF4DE25F8549300C44459 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DBA9C02B25EF1B2B0035E223 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -159,6 +221,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		DB1AF4DC25F8549300C44459 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1AF4E325F8549300C44459 /* Card_PhrasesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DBA9C02925EF1B2B0035E223 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -173,6 +243,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		DB1AF4E625F8549300C44459 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBA9C02C25EF1B2B0035E223 /* Card Phrases */;
+			targetProxy = DB1AF4E525F8549300C44459 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		DBA9C03B25EF1B2C0035E223 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -185,6 +263,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		DB1AF4E725F8549300C44459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Card PhrasesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.carlos.Card-PhrasesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Card Phrases.app/Card Phrases";
+			};
+			name = Debug;
+		};
+		DB1AF4E825F8549300C44459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Card PhrasesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.carlos.Card-PhrasesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Card Phrases.app/Card Phrases";
+			};
+			name = Release;
+		};
 		DBA9C03F25EF1B2C0035E223 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -340,6 +456,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		DB1AF4E925F8549300C44459 /* Build configuration list for PBXNativeTarget "Card PhrasesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1AF4E725F8549300C44459 /* Debug */,
+				DB1AF4E825F8549300C44459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		DBA9C02825EF1B2B0035E223 /* Build configuration list for PBXProject "Card Phrases" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
